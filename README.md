@@ -10,12 +10,12 @@ This repository contains the source code files used for the demo video which can
 ## Get started
 If you want to reproduce the actions performed in the screencast, you must have:
 - [Terraform](https://www.terraform.io/) and [gcloud cli tool](https://cloud.google.com/sdk/gcloud/) installed on your machine
-- a [Google Cloud](https://cloud.google.com/) account with credits on it (we are using the free credits offered at the beginning)
+- a [Google Cloud](https://cloud.google.com/) account with credits on it (we are using for the video the free credits given when you create an account)
 
 Then you should:
 - create a new Google Cloud project
-- enable Cloud Run Api and Container Registery Api
-- create a service account with appropriate permissions (we used the 'Owner' role but it can be fine tuned)
+- enable Cloud Run Api and Container Registery Api in this project
+- create a service account with appropriate permissions (we are using the 'Owner' role but it can be fine tuned)
 - export the credentials for this service account in a .json file
 
 ## Authors
